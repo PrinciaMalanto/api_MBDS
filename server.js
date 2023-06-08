@@ -9,7 +9,7 @@ mongoose.Promise = global.Promise;
 
 // remplacer toute cette chaine par l'URI de connexion à votre propre base dans le cloud s
 
-const uri = "mongodb+srv://mprinciarabe:VoVEknpkIBS0TSmZ@cluster0.fhp4hoo.mongodb.net/?retryWrites=true&w=majority";
+const uri = "mongodb+srv://mprinciarabe:CZVlBQulJm9Kfww6@cluster0.fhp4hoo.mongodb.net/?retryWrites=true&w=majority";
 
 const options = {
   useNewUrlParser: true,

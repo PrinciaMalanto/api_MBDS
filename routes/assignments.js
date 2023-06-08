@@ -2,6 +2,7 @@ let Assignment = require('../model/assignment');
 
 // Récupérer tous les assignments (GET)
 function getAssignments(req, res){
+    console.log(Assignment.collection.name);
     Assignment.find((err, assignments) => {
         if(err){
             res.send(err)
