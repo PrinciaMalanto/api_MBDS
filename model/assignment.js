@@ -9,7 +9,7 @@ let AssignmentSchema = Schema({
     nom: String,
     rendu: Boolean,
     auteur: String,
-    matiere: { nom: String, img: String, nomProf: String, imgProf: String} ,
+    matiere: { nom: String, avatar: String, nomProf: String, imgProf: String} ,
     note: Number, 
     remarques: String
 });
